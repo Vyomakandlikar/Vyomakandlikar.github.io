@@ -1,0 +1,59 @@
+
+@media only screen and (orientation: landscape) {
+   body{
+
+    background:linear-gradient(45deg,lightcyan, skyblue, deepskyblue,skyblue,lightcyan);
+   }
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    
+  }
+  
+iframe{
+    border:black solid 7px;
+    outline:rgb(228, 7, 7);
+    padding: 15px;
+    margin:15px;
+    width:85% ;
+    height:450px;
+    
+    
+    }
+p{
+    font-size: 3.5rem;
+    font-family: Cooper;/*Engravers MT;
+font-family: Showcard Gothic;*/
+    text-align: center;
+    color:rgb(228, 7, 7);
+    font-weight: bolder;
+}
+
+h2 a{
+    text-decoration:none;
+    color:rgb(228, 7, 7);
+    background-color:black;
+    border:black solid 3px;
+    font-family: Britannic;
+    padding:20px;
+ 
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size:2rem;
+    margin: 5rem;
+}
+a:hover{
+    color: black;
+    background-color:rgb(228, 7, 7);
+}
+h3{
+    font-size:3.5rem;
+  font-family: Showcard Gothic;
+    text-align: center;
+    color:rgb(228, 7, 7);
+    font-weight: bolder;
+}
